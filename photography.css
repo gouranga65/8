@@ -1,0 +1,55 @@
+a {
+    text-decoration: none;
+}
+
+#content {
+    padding-top: 250px;
+    padding-left: 22px;
+}
+
+#content h2 {
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+#flex1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+img {
+    width: 500px;
+    /* height: 500px; */
+}
+
+#work:hover {
+    background-color: #F0F0F0;
+    cursor: pointer;
+}
+
+button a {
+    color: black;
+    font-size: 15px;
+}
+
+button {
+    height: 60px;
+    width: 180px;
+    border-radius: 35px;
+    background-color: #Fdfcfa;
+    border: 1px solid black;
+    ;
+
+}
+
+#content h3 {
+    font-size: 20px;
+}
+
+form {
+    text-align: center;
+    border: 2px solid red;
+    width: 900px;
+    position: relative;
+    left: 180px;
+}
