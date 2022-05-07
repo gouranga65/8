@@ -1,7 +1,11 @@
 a {
     text-decoration: none;
 }
-
+#divider{
+    color: #Fdfcfa;
+    background-color: black;
+    /* height: 200px; */
+}
 #content {
     padding-top: 250px;
     padding-left: 22px;
