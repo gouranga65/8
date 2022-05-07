@@ -1,59 +1,126 @@
 a {
     text-decoration: none;
 }
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.divider2{
+    background-color: #eee;
+    height: 150px;
+    position: relative;
+    bottom: 44px;
+}
+#touch h1{
+    padding-top: 90px;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
+}
+#touch h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 15px;
+}
+#touch{
+    text-align: center;
+    height: 300px;
+}
+#img3{
+    background-image: url(./Fall-Leaves.jpg);
+    height: 500px;
+    background-size: cover;
+    position: relative;
+    bottom: 44px;
+}
+.divider2 h2{
+    position: relative;
+    top: 30px;
+}
+.two{
+    position: relative;
+    bottom:64px;
+}
+.five{
+    position: relative;
+    bottom:85px;
+}
+#img6{
+    background-image: url(./Funny-Sunset-Quotes.jpg);
+    height: 500px;
+    background-size: cover;
+    position: relative;
+    bottom: 64px;
+}
+#img5{
+    background-image: url(./_112548572_gettyimages-492611032-1.jpg);
+    height: 550px;
+    position: relative;
+    bottom: 44px;
+}
+#img4{
+    background-image: url(./11funny-animals2.jpg);
+    height: 580px;
+}
+#img2{
+    background-image: url(./beach-5b59c9b7c9e77c004b3e0ff0.jpg);
+    height: 900px;
+    width: 900px;
+    position: relative;
+    bottom: 24px;
+}
 #divider{
-    color: #Fdfcfa;
-    background-color: black;
-    /* height: 200px; */
+    color: #fff;
+    background-color: #333;
+    position: relative;
+    bottom: 24px;
+    height: 50px;
+    height: 70px;
+}
+#divider h2{
+    position: relative;
+    top: 18px;
 }
 #content {
     padding-top: 250px;
     padding-left: 22px;
 }
-
 #content h2 {
     font-size: 40px;
     font-family: Georgia, 'Times New Roman', Times, serif
 }
-
 #flex1 {
     display: flex;
     justify-content: space-between;
 }
-
 img {
     width: 500px;
-    /* height: 500px; */
 }
-
 #work:hover {
     background-color: #F0F0F0;
     cursor: pointer;
 }
-
 button a {
     color: black;
     font-size: 15px;
 }
-
 button {
     height: 60px;
     width: 180px;
     border-radius: 35px;
     background-color: #Fdfcfa;
     border: 1px solid black;
-    ;
-
 }
-
 #content h3 {
     font-size: 20px;
 }
-
 form {
+    /* background-color: #eee; */
+    /* padding-bottom: -100px; */
     text-align: center;
-    border: 2px solid red;
     width: 900px;
     position: relative;
     left: 180px;
+    -webkit-box-shadow: 0px 0px 33px -4px rgba(0,0,0,0.53);
+    -moz-box-shadow: 0px 0px 33px -4px rgba(0,0,0,0.53);
+    box-shadow: 0px 0px 33px -4px rgba(0,0,0,0.53);
 }
